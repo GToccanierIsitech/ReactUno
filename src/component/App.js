@@ -1,9 +1,6 @@
-
 import '../styles/App.css';
 
 function App() {
-
-
   //#region Question 1
   //Écrivez une fonction findLargestNumber qui prend en entrée un tableau de nombres et renvoie le plus grand nombre. Utilisez la 
   //fonction Math.max() et l'opérateur de diffusion (...) pour trouver le plus grand nombre.
@@ -23,7 +20,7 @@ function App() {
   // la méthode sort() et la syntaxe de fonction flèche pour trier les mots.
   const tableauDeMots = ['bonjour', 'salut', 'hello', 'hola', 'ciao', 'ni hao'];
   function sortWords(words) {
-    var _result = tableauDeMots.sort();
+    var _result = words.sort();
     console.log(_result)
     return _result;
   }
@@ -109,8 +106,6 @@ function App() {
   console.log("Question 10")
   sortObject({ b: 2, a: 1, c: 3 });
   //#endregion
-
-
 
   return (
     <div className="App">
